@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <title>Restaurant</title>
+    <link rel="icon" href="../image/hotel.png">
+    <meta charset="UTF-8">
+    <!--iE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--First mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!---->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/Restaurant.css">
+    <link rel="stylesheet" href="../css/hover-min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+</head>
+
+<body>
+    <!---Loading--->
+
+    <div class="Load">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    <!---End--Loading-->
+
+    <!---NavBar--->
+    <div class="Nav">
+        <div class="container">
+            <div class="con">
+                <a href="Hotely.html"><span>Hotely</span></a>
+                <div class="Larg d-none d-lg-inline-flex">
+                    <ul class="list-unstyled">
+                        <li><a href="Rooms.html">ROOMS</a></li>
+                        <li><a href="Spa.html">SPA</a></li>
+                        <li style=" border-bottom:2px solid  #455d58;"><a href="Restaurant.html">RESTAURANT</a></li>
+                        <li><a href="Event.html">EVENTS</a></li>
+                        <li><a href="weeding.html">WEDDINGS</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                    <a href="Book.html"><button class="hvr-shutter-in-vertical">BOOK</button></a>
+                </div>
+
+                <button class="nav-but d-lg-none" onclick="down()"><span></span> <span></span> <span></span></button>
+
+                <div class="NAV-Down ">
+                    <div class="Down-but">
+                        <button class="nav-but d-lg-none" onclick="UP()"><span></span> <span></span>
+                            <span></span></button>
+                    </div>
+                    <ul class="list-unstyled text-center">
+                        <li><a href="Rooms.html">ROOMS</a></li>
+                        <li><a href="Spa.html">SPA</a></li>
+                        <li><a href="Restaurant.html">RESTAURANT</a></li>
+                        <li><a href="Event.html">EVENTS</a></li>
+                        <li><a href="weeding.html">WEDDINGS</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        <li><a href="Book.html">BOOK</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--ENd--Nav-->
+    <!---Header--->
+    <div class="Header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 f">
+                    <div class="im">
+                        <img src="../image/5e7366b8f523aa6a80c3d2e4_restaurant.jpg" width="100%">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 s">
+                    <div class="dis">
+                        <span>Dine with us</span>
+                        <h2>A place full of aromas</h2>
+                        <p>Hotely is a 2-storey restaurant: a spacious ground level with a central kitchen and an
+                            elegant second story. The green chestnut trees, you will appreciate dishes focused on new,
+                            seasonal, often local products. Chef derives inspiration from various journeys, but often at
+                            the core of the family home</p>
+                        <a href="Book.html"><button>RESERVE A TABLE</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="dis">
+                <div id="carouselExampleIndicators" class="carousel slide wow fadeIn" data-wow-duration="1s"
+                    data-wow-delay="1s" data-wow-offset="120" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../image/nick-karvounis-6qVskOfkgZY-unsplash.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../image/louis-hansel-shotsoflouis-eQuxz3r3PBw-unsplash.jpg" class="d-block w-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../image/matt-hoffman-7zwyUZVrt-U-unsplash.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../image/dinesh-ramaswamy-p-sEkj6-hAM-unsplash.jpg" class="d-block w-100"
+                                alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Times--->
+    <div class="Hours">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-2 f wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"
+                    data-wow-offset="120">
+                    <div class="imsh">
+                        <img src="../image/5e73688a2fc9d352ffa64c09_restaurant-hours.jpeg" width="100%">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-md-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s"
+                    data-wow-offset="120">
+                    <h2>Restaurant hours</h2>
+                    <ul class="list-unstyled">
+                        <span>Monday – Friday</span>
+                        <li>Breakfast 7:00am – 11:00am</li>
+                        <li>Lunch 11:00am – 3:00pm</li>
+                        <li>Dinner 3:00pm – 10:00pm</li>
+                        <span>Saturday & Sunday</span>
+                        <li>Brunch 7:00am – 3:00pm</li>
+                        <li>Dinner 3:00pm – 10:00pm</li>
+
+                        <p>Bar hours</p>
+                        <li>Daily 10:00am – 11:00pm</li>
+                        <li>Tapas Menu 3:00pm – 10:00pm</li>
+                        <li>Happy Hour 4:00pm – 7:00pm</li>
+                    </ul>
+                    <a href="Book.html"><button>RESERVE A TABLE</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--menu--->
+    <div class="menu text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="120">
+                    <div class="Head">
+
+                    </div>
+                </div>
+            </div>
+            <h2 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="120">Menus</h2>
+            <p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="120">The open-plan kitchen
+                is a unique addition, along with a wide open-plan dining room featuring original
+                foundations, rendering the space spacious and modern</p>
+            <ul class="list-unstyled or wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="120">
+                <li id="0">Snacks</li>
+                <li id="1">Plates</li>
+                <li id="2">Sides</li>
+            </ul>
+            <ul class="list-unstyled men wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="120">
+
+            </ul>
+        </div>
+    </div>
+    <!---Footer--->
+    <div class="footer text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-3 f wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"
+                    data-wow-offset="120">
+                    <a href="Hotely.html"><span>Hotely</span></a>
+                </div>
+
+                <div class="col-6 d-md-none s wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s"
+                    data-wow-offset="120">
+                    <div class="first">
+                        <span>
+                            Hotely Resort & Spa
+                            <br>
+                            548 Market St,
+                            <br>
+                            San Francisco,
+                            <br>
+                            CA 94104-5401
+                        </span>
+                    </div>
+                    <div class="second wow fadeIn" data-wow-duration="1s" data-wow-delay="1.4s" data-wow-offset="120">
+                        <ul class="list-unstyled">
+                            <li><a href="Contact.html">Contact us</a></li>
+                            <li><a href="Restaurant.html">Restaurant</a></li>
+                            <li><a href="weeding.html">Weddings</a></li>
+                            <li><a href="Spa.html">SPA & Wellness</a></li>
+                        </ul>
+                    </div>
+                    <div class="third wow fadeIn" data-wow-duration="1s" data-wow-delay="1.6s" data-wow-offset="120">
+                        <p>Reservations:</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#">800 435 7463</a></li>
+                            <li><a href="#">800 435 7463</a></li>
+                            <li><a href="#">800 435 7463</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 d-none d-md-inline-flex t wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s"
+                    data-wow-offset="120">
+                    <span>
+                        Hotely Resort & Spa
+                        <br>
+                        548 Market St,
+                        <br>
+                        San Francisco,
+                        <br>
+                        CA 94104-5401
+                    </span>
+                </div>
+                <div class="col-md-3 d-none d-md-inline-flex fu wow fadeIn" data-wow-duration="1s" data-wow-delay="1.4s"
+                    data-wow-offset="120">
+                    <ul class="list-unstyled">
+                        <li><a href="Contact.html">Contact us</a></li>
+                        <li><a href="Restaurant.html">Restaurant</a></li>
+                        <li><a href="weeding.html">Weddings</a></li>
+                        <li><a href="Spa.html">SPA & Wellness</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 d-none d-md-inline-flex fi wow fadeIn" data-wow-duration="1s" data-wow-delay="1.6s"
+                    data-wow-offset="120">
+
+                    <ul class="list-unstyled">
+                        <span>Reservations:</span>
+                        <li><a href="#">800 435 7463</a></li>
+                        <li><a href="#">800 435 7463</a></li>
+                        <li><a href="#">800 435 7463</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---copy--->
+    <div class="CopyRight">
+        <span class="wow fadeIn">
+            Copyright &copy; 2020 Hotely. Support SAYED ALI.
+        </span>
+    </div>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/Restaurant.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

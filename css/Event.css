@@ -1,0 +1,440 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Alegreya, sans-serif;
+    color: #455d58;
+    background: #faf7f2;
+}
+.Load
+{
+    background: #455d58;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5000;
+}
+.sk-cube-grid {
+    width: 80px;
+    height: 80px;
+    margin: 219px auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #faf7f2;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+  /*Nav*/
+  .Nav
+  {
+      background-color: #faf7f2;
+      padding: 10px 0 0;
+      position: fixed;
+      top:0;
+      width: 100%;
+      z-index: 3000;
+  }
+
+  .con
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .con a:hover,.con a
+  {
+      color:#455d58;
+      text-decoration: none;
+  }
+  .con a span
+  {
+    font-size: 32px;
+    margin-left: 25px;
+    color: #455d58;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+  }
+  .Larg
+  {
+    margin-right: 20px;
+  }
+  .Larg ul
+  {
+    line-height: 3.6;
+    margin-bottom: 8px;
+    display: flex;
+  }
+  .Larg ul li {
+    font-size: 12.5px;
+    margin: 0px 20px;
+    letter-spacing: 3px;
+    border: 1px solid #faf7f2;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.Larg ul li:hover {
+   border-bottom:2px solid  #455d58;
+}
+.Larg a button {
+  background: #455d58;
+  transition: all 0.3s ease-in-out;
+  color: #faf7f2;
+  border-radius: 2px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 8px 16px;
+  border: 1px solid #455d58;
+  outline: none;
+}
+.hvr-shutter-in-vertical:active, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:hover {
+    color: #455d58 !important;
+    background: #faf7f2;
+}
+.hvr-shutter-in-vertical:before {
+    background: #455d57 !important;
+    
+}
+button.nav-but.d-lg-none
+{
+    background: none;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+button.nav-but.d-lg-none  span
+{
+    display: block;
+    width: 19px;
+    height: 3px;
+    background: #455d57;
+    margin: 3px 0;
+}
+.NAV-Down
+{
+    position: absolute;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    background: #455d57;
+    width: 100%;
+    height: 619px;
+    padding: 20px 10px;
+    display: none;
+}
+.Down-but
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px 20px;
+}
+.Down-but  button.nav-but.d-lg-none span
+{
+    background:#faf7f2;
+}
+.NAV-Down ul
+{
+    line-height: 3.5;
+    margin-top: 90px;
+}
+.NAV-Down ul li a {
+    color: #faf7f2;
+}
+.NAV-Down ul li
+{
+    font-size: 13px;
+    margin: 0px 20px;
+    letter-spacing: 3px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Josefin Sans', sans-serif;
+     font-weight:bold;
+}
+.NAV-Down ul li:hover {
+
+    transform: scale(1.1);
+}
+.NAV-Down ul li a:hover {
+    color: #faf7f2;
+}
+/*Header*/
+.Header
+{
+    padding: 160px 0 100px;
+}
+.Header .f
+{
+    padding-right: 27px;
+    margin-bottom: 50px;
+}
+.Header .s
+{
+    padding-left: 42px;
+}
+.Header h2
+{
+    max-width: 400px;
+    font-size: 50px; 
+}
+.Header p
+{
+    line-height: 1.6;
+    margin: 22px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    max-width: 415px;
+}
+.Header button {
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 30px;
+    border: 1px solid #455d56;
+    border-radius: 3px;
+    color: #455d56;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    outline: none;
+}
+.Header button:hover
+{
+    color: #faf7f2;
+    background: #455d56; 
+}
+/*dis*/
+.dis
+{
+  
+    background: url(../image/headway-F2KRf_QfCqw-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    color: #faf7f2;
+}
+.dis .overlay
+{
+    padding: 200px 0px;
+    width: 100%;
+    height: 100%;
+    background: #455d5596;
+}
+.dis .container
+{
+    position: relative;
+    z-index: 2;
+}
+.dis  h2
+{
+    font-size: 53px;
+    margin: 20px 0 50px;
+    max-width: 472px;
+}
+@media(max-width:767px)
+{
+    .dis  h2
+    {
+        font-size: 41px;
+       
+    }
+}
+.dis  p
+{
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+
+    letter-spacing: 1.2px;
+}
+.dis  button
+{
+    background: none;
+    color: #faf7f2;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 22px 39px;
+    border: 1px solid #faf7f2;
+    border-radius: 3px;
+    margin: 35px 0;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    outline: none;
+} 
+.dis  button:hover
+{
+background: #faf7f2;
+color: #455d58;
+}
+/*Con*/
+.conf
+{
+    padding: 120px 0px;
+}
+.conf .f
+{
+    margin-bottom: 50px;
+}
+.conf .f .imsh
+{
+    height: 100%;
+}
+.conf .f .imsh img
+{
+    height: 100%;
+}
+.conf h2
+{
+    font-size: 55px;
+    max-width: 355px;
+    margin: 14px 0;
+}
+.conf p
+{
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    max-width: 400px;
+    letter-spacing: 1px;
+}
+.conf button
+{
+    background: none;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 30px;
+    border: 1px solid #455d56;
+    border-radius: 3px;
+    color: #455d56;
+    margin: 20px 0;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    outline: none; 
+}
+.conf button:hover
+{
+    background: #455d58;
+    color:#faf7f2
+}
+/*footer*/
+.footer
+{
+  background: #455d56;
+  color: #faf7f2;
+  padding: 60px 0;
+}
+.footer .f a
+{
+  color: #455d58;
+  text-decoration: none;
+}
+.footer .f a span
+{
+  font-size: 32px;
+    margin-left: 25px;
+    color: #faf7f2;
+}
+
+.footer .s .first span ,.footer .t span
+{
+  margin-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif; font-weight:bold;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 200;
+}
+.footer .first ,.footer .second ,.footer .third ,.footer .t ,.footer .fu ,.footer .fi
+{
+  margin-bottom: 20px;
+}
+.footer li
+{
+  margin-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  transition: all 0.3s ease-in-out;
+}
+.footer li a {
+  color: #faf7f2;
+}
+.footer li a:hover
+{
+  text-decoration: none;
+}
+.footer li:hover
+{
+  transform: scale(1.08);
+}
+/*Copy*/
+.CopyRight
+{
+  background: #455d55;
+  color: #faf7f2;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  padding: 20px;
+}
+.CopyRight span
+{
+  margin-left: 27px;
+  font-size: 13px;
+}

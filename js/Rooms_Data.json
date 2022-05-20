@@ -1,0 +1,176 @@
+[
+    {
+        "id": 0,
+        "name": "Economy",
+        "size": "16m2",
+        "capacity": "max.1Per.",
+        "price": "140$",
+        "photo": "../image/5e7380358fd6dff2154e7d46_room-1-p-1080.jpeg",
+        "advantage": [
+            "WIFI",
+            "Coffee Machine",
+            "Cooling",
+            " TV"
+        ],
+        "icons": {
+            "size": " fas fa-expand-alt fa-lg ",
+            "person": " fas fa-user fa-lg "
+        },
+        "AD": [
+            " fas fa-wifi  ",
+            " fas fa-coffee  ",
+            " fas fa-fan  ",
+            " fas fa-tv  "
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Economy Double",
+        "size": "19m2",
+        "capacity": "max.2Per.",
+        "price": "170$",
+        "photo": "../image/5e7381d7ff0f8e6505495ec5_room2-p-1080.jpeg",
+        "advantage": [
+            "WIFI",
+            "Cooling",
+            " TV"
+        ],
+        "icons": {
+            "size": " fas fa-expand-alt fa-lg ",
+            "person": " fas fa-user fa-lg "
+        },
+        "AD": [
+            " fas fa-wifi  ",
+            " fas fa-fan  ",
+            " fas fa-tv  "
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Classic",
+        "size": "20m2",
+        "capacity": "max.2Per.",
+        "price": "197$",
+        "photo": "../image/5e7394d86dd39c2cfd11ccc5_room-classic.jpeg",
+        "advantage": [
+            "WIFI",
+            "Cooling",
+            " TV",
+            "Safe",
+            "Minibar",
+            "Desk"
+        ],
+        "icons": {
+            "size": " fas fa-expand-alt fa-lg ",
+            "person": " fas fa-user fa-lg "
+        },
+        "AD": [
+            " fas fa-wifi  ",
+            " fas fa-fan  ",
+            " fas fa-tv  ",
+            " fas fa-archive ",
+            " fas fa-glass-cheers ",
+            " fas fa-hotel "
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Superior",
+        "size": "23-29m2",
+        "capacity": "max.2Per.",
+        "price": "243$",
+        "photo": "../image/5e739533ff0f8ee91e4a0493_room-superior.jpeg",
+        "advantage": [
+            "WIFI",
+            "Cooling",
+            " TV",
+            "Safe",
+            "Minibar",
+            "Desk",
+            "Wardrobe",
+            "Coffee Machine"
+        ],
+        "icons": {
+            "size": " fas fa-expand-alt fa-lg ",
+            "person": " fas fa-user fa-lg "
+        },
+        "AD": [
+            " fas fa-wifi  ",
+            " fas fa-fan  ",
+            " fas fa-tv  ",
+            " fas fa-archive ",
+            " fas fa-glass-cheers ",
+            " fas fa-hotel ",
+            " fas fa-suitcase-rolling ",
+            " fas fa-coffee  "
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Junior Suite",
+        "size": "33-48m2",
+        "capacity": "max.4Per.",
+        "price": "312$",
+        "photo": "../image/im3rd-media-CbZ4EDP__VQ-unsplash.jpg",
+        "advantage": [
+            "WIFI",
+            "Cooling",
+            " TV",
+            "Safe",
+            "Minibar",
+            "Desk",
+            "Wardrobe",
+            "Coffee Machine",
+            "Bathrobes"
+        ],
+        "icons": {
+            "size": " fas fa-expand-alt fa-lg ",
+            "person": " fas fa-user fa-lg "
+        },
+        "AD": [
+            " fas fa-wifi  ",
+            " fas fa-fan  ",
+            " fas fa-tv  ",
+            " fas fa-archive ",
+            " fas fa-glass-cheers ",
+            " fas fa-hotel ",
+            " fas fa-suitcase-rolling ",
+            " fas fa-coffee  ",
+            " fas fa-bath "
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Apartment",
+        "size": "56-68m2",
+        "capacity": "max.4Per.",
+        "price": "540$",
+        "photo": "../image/francesca-tosolini-hCU4fimRW-c-unsplash.jpg",
+        "advantage": [
+            "WIFI",
+            "Cooling",
+            " TV",
+            "Safe",
+            "Minibar",
+            "Desk",
+            "Wardrobe",
+            "Coffee Machine",
+            "Bathrobes"
+        ],
+        "icons": {
+            "size": " fas fa-expand-alt fa-lg ",
+            "person": " fas fa-user fa-lg "
+        },
+        "AD": [
+            " fas fa-wifi  ",
+            " fas fa-fan  ",
+            " fas fa-tv  ",
+            " fas fa-archive ",
+            " fas fa-glass-cheers ",
+            " fas fa-hotel ",
+            " fas fa-suitcase-rolling ",
+            " fas fa-coffee  ",
+            " fas fa-bath "
+        ]
+    }
+]
